@@ -1,5 +1,5 @@
 /* ============================================
-   PORTFOLIO SCRIPT — Alex Morgan
+   PORTFOLIO SCRIPT — Reto Stephen
    Custom Cursor, Scroll Reveals, Nav Effects
    ============================================ */
 
