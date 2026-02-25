@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reto Stephen — Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">RS<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle">
+      <span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-text">DEV</div>
+    <div class="hero-content">
+      <p class="hero-label reveal">Frontend Developer</p>
+      <h1 class="hero-title">
+        <span class="reveal">Reto</span>
+        <span class="reveal accent-line">Stephen</span>
+      </h1>
+      <p class="hero-sub reveal">I craft beautiful, fast & accessible web experiences that leave an impression.</p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn btn-primary">See My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-badge">
+      <div class="badge-ring">
+        <svg viewBox="0 0 100 100" class="badge-svg">
+          <path id="badgePath" d="M 50,50 m -35,0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0" fill="none"/>
+          <text>
+            <textPath href="#badgePath">AVAILABLE FOR WORK • OPEN TO OPPORTUNITIES • </textPath>
+          </text>
+        </svg>
+        <div class="badge-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label reveal">/ About Me</div>
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <div class="about-img-wrap">
+            <div class="about-img-placeholder">
+              <div class="img-initials">RS</div>
+              <div class="img-glow"></div>
+            </div>
+            <div class="about-img-frame"></div>
+          </div>
+        </div>
+        <div class="about-right">
+          <h2 class="section-title reveal">Turning ideas into<br /><em>digital realities.</em></h2>
+          <p class="about-text reveal">Hey! I'm Reto, a frontend developer with a passion for building interfaces that feel as good as they look. I bridge the gap between design and code — obsessing over the small details that make a big difference.</p>
+          <p class="about-text reveal">With 3+ years of experience, I specialize in modern JavaScript, React ecosystems, and performance-first development. I believe the web should be fast, beautiful, and accessible to everyone.</p>
+          <div class="about-stats reveal">
+            <div class="stat">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Years Exp.</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">40+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">15+</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary reveal">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label reveal">/ Skills</div>
+      <h2 class="section-title reveal">My Toolkit</h2>
+      <div class="skills-grid reveal">
+
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>TypeScript</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">⚛️</div>
+          <h3>Frameworks</h3>
+          <div class="skill-tags">
+            <span>React</span><span>Next.js</span><span>Vue</span><span>Astro</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>Styling</h3>
+          <div class="skill-tags">
+            <span>Tailwind</span><span>SASS</span><span>Framer Motion</span><span>CSS Animations</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🛠️</div>
+          <h3>Tools</h3>
+          <div class="skill-tags">
+            <span>Git</span><span>Figma</span><span>Vite</span><span>Webpack</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label reveal">/ Projects</div>
+      <h2 class="section-title reveal">Selected Work</h2>
+      <div class="projects-list">
+
+        <div class="project-card reveal">
+          <div class="project-number">01</div>
+          <div class="project-info">
+            <h3 class="project-title">Luminary UI Kit</h3>
+            <p class="project-desc">A comprehensive design system and component library built with React and TypeScript. Features 60+ accessible components with dark/light themes.</p>
+            <div class="project-tags"><span>React</span><span>TypeScript</span><span>Storybook</span></div>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Live ↗</a>
+            <a href="#" class="project-link">GitHub ↗</a>
+          </div>
+          <div class="project-hover-img" style="background: linear-gradient(135deg, #0a0a0f 0%, #1a0533 100%);"></div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-number">02</div>
+          <div class="project-info">
+            <h3 class="project-title">Orion Dashboard</h3>
+            <p class="project-desc">Real-time analytics dashboard with dynamic data visualization, WebSocket integration, and a buttery-smooth UX for monitoring key metrics.</p>
+            <div class="project-tags"><span>Next.js</span><span>D3.js</span><span>WebSockets</span></div>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Live ↗</a>
+            <a href="#" class="project-link">GitHub ↗</a>
+          </div>
+          <div class="project-hover-img" style="background: linear-gradient(135deg, #0a0a0f 0%, #001a33 100%);"></div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-number">03</div>
+          <div class="project-info">
+            <h3 class="project-title">Verse — Blog Platform</h3>
+            <p class="project-desc">A minimalist publishing platform with a rich markdown editor, image optimization, and sub-second page loads via static site generation.</p>
+            <div class="project-tags"><span>Astro</span><span>MDX</span><span>Tailwind</span></div>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Live ↗</a>
+            <a href="#" class="project-link">GitHub ↗</a>
+          </div>
+          <div class="project-hover-img" style="background: linear-gradient(135deg, #0a0a0f 0%, #1a1500 100%);"></div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-number">04</div>
+          <div class="project-info">
+            <h3 class="project-title">Pulse — Music App</h3>
+            <p class="project-desc">A Spotify-inspired music streaming interface with audio visualization, playlist management, and a Web Audio API-powered equalizer.</p>
+            <div class="project-tags"><span>Vue 3</span><span>Web Audio API</span><span>GSAP</span></div>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Live ↗</a>
+            <a href="#" class="project-link">GitHub ↗</a>
+          </div>
+          <div class="project-hover-img" style="background: linear-gradient(135deg, #0a0a0f 0%, #001a1a 100%);"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label reveal">/ Contact</div>
+      <div class="contact-inner">
+        <h2 class="contact-title reveal">Let's build something<br /><em>remarkable.</em></h2>
+        <p class="contact-sub reveal">Open to freelance opportunities, collaborations, or just a good conversation about the web.</p>
+        <a href="mailto:alex@example.com" class="contact-email reveal">retostephen23@gmail.com</a>
+        <div class="contact-socials reveal">
+          <a href="#" class="social-link">GitHub</a>
+          <a href="#" class="social-link">LinkedIn</a>
+          <a href="#" class="social-link">Twitter/X</a>
+          <a href="#" class="social-link">Dribbble</a>
+        </div>
+      </div>
+    </div>
+    <div class="contact-bg-text">HELLO</div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <span>© 2025 Reto Stephen</span>
+      <span>Crafted with Minds</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
